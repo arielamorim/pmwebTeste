@@ -1,0 +1,9 @@
+CREATE TABLE `order_items` (
+  `order_id` int(10) NOT NULL,
+  `order_date` date DEFAULT NULL,
+  `product_sku` varchar(20) DEFAULT NULL,
+  `SIZE` varchar(3) DEFAULT NULL,
+  `color` varchar(100) DEFAULT NULL,
+  `quantity` int(10) DEFAULT NULL,
+  `price` decimal(10,2) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1
